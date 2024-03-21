@@ -1,0 +1,41 @@
+.caption {
+    font-size: 1.5em;
+    color: #eb1c1c;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 10px;
+    background-color: #eb1c1c;
+    color: white;
+    cursor: pointer;
+}
+
+
+.list {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    color: black;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.list:hover {
+    background-color: #000000;
+    color: white;
+}
+
+li {
+    list-style: none;
+    font-size: 1.5em;
+    line-height: 2em;
+    text-align: center;
+}
